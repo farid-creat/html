@@ -1,0 +1,7 @@
+label{
+    color: aqua;
+}
+button[type="submit"] {
+    color: red;
+    background: aqua;
+}
