@@ -1,7 +1,11 @@
-label{
+.aqua_color{
     color: aqua;
 }
-button[type="submit"] {
+
+.red_color{
     color: red;
-    background: aqua;
+}
+
+br ~ button {
+    font-weight:bold;
 }
