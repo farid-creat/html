@@ -7,5 +7,15 @@
 }
 
 br ~ button {
-    font-weight:bold;
+    font-weight:normal;
+}
+
+form a:hover{
+
+    color: khaki;
+}
+
+form button:hover{
+    color: red;
+    font-weight: bold;
 }
