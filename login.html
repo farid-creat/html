@@ -1,26 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login</title>
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <form action="#">
-            <br>
-            <label class="red_color">UserName: </label>
-            <input type="text" name="user" placeholder="enter your username">
-            <br>
-            <br>
-            <label class="aqua_color">Password: </label>
-            <input type="password" name="password" placeholder="enter your password">
-            <br>
-            <br>
-            <button type="submit">confirm</button>
-            <br>
-            <br>
-            <button type="reset">reset</button>
-        </form>
-        <br>
-        
-    </body>
+
+<head>
+	<title>
+		How to change the href attribute
+		dynamically using JavaScript?
+	</title>
+</head>
+
+<body style="text-align:center;">
+	
+	<h1 style="color:green">
+		GeeksforGeeks
+	</h1>
+	
+	<h3>
+		Change the href attribute value<br>
+		dynamically using JavaScript
+	</h3>
+	
+	<a href="https://www.google.com">
+		Go to Google
+	</a>
+	
+	<br><br>
+	
+	<button onclick="myFunction()">
+		Click Here!
+	</button>
+	
+	<script type="text/javascript">
+		function myFunction() {
+			var link = document.querySelector("a");
+			link.getAttribute("href");
+			link.setAttribute("href",
+				"https://www.geeksforgeeks.org");
+			link.textContent = "Go to GeeksforGeeks";
+		}
+	</script>
+</body>
+
 </html>
